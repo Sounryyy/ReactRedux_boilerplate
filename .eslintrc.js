@@ -42,7 +42,7 @@ module.exports = {
     'react/no-did-mount-set-state': 'off',
     'react/no-unused-prop-types': 'off',
     'react/jsx-one-expression-per-line': 'off',
-    "react/prefer-stateless-function": [0, { ignorePureComponents: true }],
+    'react/prefer-stateless-function': [0, { ignorePureComponents: true }],
     'jsx-a11y/anchor-is-valid': ['error', { components: ['Link'], specialLink: ['to'] }],
     'jsx-a11y/label-has-for': [
       2,
