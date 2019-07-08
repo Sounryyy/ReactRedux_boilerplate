@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <h1> React is working!!!!!!!!!!!</h1>
         <h1>Hello world!</h1>
-        <h2>Осталось - Router, Redux, eslint, prettier, babel(+es6, +react)</h2>
+        <h2>Осталось - Router, Redux</h2>
       </div>
     );
   }
