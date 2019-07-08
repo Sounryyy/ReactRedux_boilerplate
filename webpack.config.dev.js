@@ -5,6 +5,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     mode: 'development',
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './dist',
+        compress: true,
+        port: 9000,
+        open: 'Google Chrome'
+    },
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'dist')
