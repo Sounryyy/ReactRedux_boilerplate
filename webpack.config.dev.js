@@ -36,7 +36,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            filename: "index.html",
+            template: path.resolve(__dirname, 'src/index.html')
         })
     ]
 };

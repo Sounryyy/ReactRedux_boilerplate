@@ -1,3 +1,3 @@
 import './css.css'
 
-console.log('123');
+document.getElementById('root').innerHTML = '<h1 class="red">Hello world!</h1>';
