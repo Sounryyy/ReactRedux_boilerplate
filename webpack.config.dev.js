@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const PrettierWebpackPlugin = require('prettier-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -11,7 +10,6 @@ module.exports = {
     contentBase: './dist',
     compress: true,
     port: 9000,
-    open: 'Google Chrome',
   },
   output: {
     filename: 'bundle.js',
@@ -39,7 +37,6 @@ module.exports = {
     ],
   },
   plugins: [
-    new PrettierWebpackPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',

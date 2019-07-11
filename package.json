@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "devbuild": "webpack --config webpack.config.dev.js",
-    "devserver": "webpack-dev-server --config webpack.config.dev.js --open",
+    "devserver": "webpack-dev-server --config webpack.config.dev.js",
     "prettier": "prettier --write src/**/*.js",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix"
