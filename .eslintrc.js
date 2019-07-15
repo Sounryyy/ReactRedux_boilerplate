@@ -32,6 +32,8 @@ module.exports = {
     'no-param-reassign': 'off',
     radix: 'off',
 
+    "comma-dangle": ["error", "never"],
+
     'react/require-default-props': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],

@@ -1,11 +1,11 @@
 module.exports = {
   printWidth: 80,
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: 'none',
   bracketSpacing: true,
-  jsxBracketSameLine: true,
+  jsxBracketSameLine: false,
   tabWidth: 2,
   semi: true,
   useTabs: false,
-  plugins: ['reshadow/prettier'],
+  plugins: ['reshadow/prettier']
 };
