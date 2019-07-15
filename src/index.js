@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import NotFoundPage from 'src/containers/NotFoundPage/NotFoundPage';
-import App from './containers/App/App';
+import NotFoundPage from 'src/containers/NotFoundPage/index';
+import App from './containers/App/index';
 
 const initialState = ['koto', 'na'];
 
@@ -28,5 +28,5 @@ ReactDOM.render(
       </Switch>
     </BrowserRouter>
   </Provider>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );
