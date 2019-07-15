@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "devbuild": "webpack --config webpack.config.dev.js",
-    "devserver": "webpack-dev-server --config webpack.config.dev.js --open",
+    "devserver": "webpack-dev-server --config webpack.config.dev.js",
     "prettier": "prettier --write src/**/*.js",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix"
@@ -47,6 +47,8 @@
     "react-router-scroll": "^0.4.4",
     "redux-devtools": "^3.5.0",
     "style-loader": "^0.23.1",
+    "stylelint": "^10.1.0",
+    "stylelint-webpack-plugin": "^0.10.5",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
