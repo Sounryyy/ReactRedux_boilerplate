@@ -29,6 +29,8 @@ module.exports = {
     'no-console': 'error',
     'no-alert': 'error',
 
+    "import/no-unresolved": "off",
+
     'no-param-reassign': 'off',
     radix: 'off',
 
