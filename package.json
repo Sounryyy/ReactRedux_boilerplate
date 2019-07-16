@@ -48,6 +48,8 @@
     "redux-devtools": "^3.5.0",
     "style-loader": "^0.23.1",
     "stylelint": "^10.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^3.0.1",
     "stylelint-webpack-plugin": "^0.10.5",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",

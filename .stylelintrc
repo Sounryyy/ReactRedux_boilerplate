@@ -1,4 +1,5 @@
 {
-  "rules": {
-  }
+  "extends": [
+    "stylelint-config-rational-order"
+  ]
 }
